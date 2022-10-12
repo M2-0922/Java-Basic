@@ -27,6 +27,12 @@ public class Car extends Vehicle{
         this.seatBelt = seatBelt;
         this.AC = AC;
     }
+    public Car(String engine, int wheels, int seats, String fuelTank, String light, String steering, String stereo, String seatBelt) {
+        super(engine, wheels, seats, fuelTank, light);
+        this.steering = steering;
+        this.stereo = stereo;
+        this.seatBelt = seatBelt;
+    }
 
     public Car(String steering, String stereo, String seatBelt, boolean AC) {
         this.steering = steering;

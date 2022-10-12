@@ -2,6 +2,7 @@ package com.javaclasses;
 
 import com.javaclasses.Bike.Bike;
 import com.javaclasses.Car.Car;
+import com.javaclasses.Ford.Ford;
 import com.javaclasses.Truck.Truck;
 
 public class App {
@@ -16,6 +17,13 @@ public class App {
         // create a truck object
         Truck truck = new Truck("6-stroke", 6, 3, "metal", "LED", "plastic", "CD", "plastic", true, "metal");
 
+        Ford mustang = new Ford("Mustang", "4-stroke", 4, 5, "metal", "LED", "plastic", "CD", "plastic");
+
+        Ford f150 = new Ford();
+        
+
+        System.out.println(mustang.getName());
+        System.out.println(mustang.getEngine());
         System.out.println("====================");
         // print the bike object
         System.out.println(bike.getEngine());
