@@ -6,7 +6,11 @@
  
 public class Circle extends Shape{
     
-    public Circle(){}
+    private String test;
+
+    public Circle(){
+        test = "asdkakd";
+    }
 
     @Override
     public String calculateArea(){

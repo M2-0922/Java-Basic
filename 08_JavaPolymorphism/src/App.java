@@ -12,6 +12,7 @@ public class App {
         Rectangle rectangle = new Rectangle();
         System.out.println(rectangle.calculateArea());
 
+        Circle circle = new Circle();
 
         // name = "asjdajda";
         // Rectangle 

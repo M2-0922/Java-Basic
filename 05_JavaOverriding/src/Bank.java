@@ -24,6 +24,15 @@ public class Bank {
         System.out.println("You can withdraw money from this bank.");
     }
 
+    public void withdrawMoney(int amount) {
+
+    }
+
+    public void withdrawMoney(int amount, String message) {
+        
+        // System.out.println(message);
+    }
+
     public void depositMoney(){
         System.out.println("You can deposit money to this bank.");
     }

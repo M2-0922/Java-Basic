@@ -9,10 +9,13 @@ package com.javaclasses.Bike;
 import com.javaclasses.Vehichle.Vehicle;
 
 public class Bike extends Vehicle {
+    // private long id;
     private String handle;
-
+    public int amount;
     // default constructor
-    public Bike(){
+    Bike(){
+        this.handle = "long";
+        this.amount = 5;
     }
 
     // parameterized constructor
@@ -20,8 +23,6 @@ public class Bike extends Vehicle {
         super(engine, wheels, seats, fuelTank, light);
         this.handle = handle;
     }
-
-    
 
     public Bike(String handle) {
         this.handle = handle;
@@ -32,8 +33,20 @@ public class Bike extends Vehicle {
         return this.handle;
     }
 
-    public void setHandle(String handle) {
-        this.handle = handle;
+
+    public int getAmount() {
+        return amount;
     }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
+    
+    
+
+    // public String sayMyName(){
+    //     String name = "John";
+    //     return name;
+    // }
 
 }

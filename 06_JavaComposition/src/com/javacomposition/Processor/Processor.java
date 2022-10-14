@@ -13,13 +13,15 @@ public class Processor {
     private String processorCores;
     private String processorThreads;
 
-    public Processor() {
-        processorBrand = "Intel";
-        processorModel = "i7";
-        processorGeneration = "10th";
-        processorCores = "6";
-        processorThreads = "12";
-    }
+    
+    
+    // public Processor() {
+    //     // processorBrand = "Intel";
+    //     // processorModel = "i7";
+    //     // processorGeneration = "10th";
+    //     // processorCores = "6";
+    //     // processorThreads = "12";
+    // }
 
     public Processor(String processorBrand, String processorModel, String processorGeneration, String processorCores, String processorThreads) {
         this.processorBrand = processorBrand;
