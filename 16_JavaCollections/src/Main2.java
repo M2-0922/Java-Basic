@@ -11,12 +11,12 @@ public class Main2 {
 
         // Single dimension Array
         int[] number = {1,2,3,4,5};
-        String[] strArr = {"Hello", "Hola", "Merhaba"};
+        
         float[] floatArr = {0.0f, 0.1f, 0.2f};
         boolean[] booleanArr = {false, true};
 
         int[] intArr2 = new int[3];
-        int[] intArr3 = new int[3];
+        int[] intArr3 = new int[5];
 
         // intArr2[0] = 10;
         // intArr2[1] = 15;
@@ -26,7 +26,8 @@ public class Main2 {
         Arrays.fill(intArr3, fillValue);
         Arrays.fill(intArr2, fillValue);
         System.out.println(Arrays.toString(intArr2));
-
+        System.out.println(Arrays.toString(intArr3));
+        
         // compare
         System.out.println(Arrays.compare(intArr2, intArr3));
 
@@ -41,13 +42,14 @@ public class Main2 {
 
         // System.out.println(Arrays.toString(number));
         // System.out.println(Arrays.toString(strArr));
-        // displayArr(strArr);
+        String[] strArr = {"Hello", "Hola", "Merhaba"};
+        displayArr(strArr); // [Hello, Hola, Merhaba]
         // displayArr(number);
         // displayMultiDimentionArr(multiDimensionArr);
     }
 
     public static void displayArr(String[] str){
-
+        
         for(String element: str){
             System.out.println(element);
         }
@@ -58,6 +60,7 @@ public class Main2 {
         for(int element: intArr){
             System.out.println(element);
         }
+
     }
 
     public static void displayMultiDimentionArr(int[][] intArr){
