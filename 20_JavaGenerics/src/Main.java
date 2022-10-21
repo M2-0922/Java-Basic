@@ -41,7 +41,7 @@ public class Main {
         // List <Data<String>> list = new LinkedList<>();
         // List<Data<String>> list2 = new LinkedList<>();
         LinkedList<Data<String>> list = new LinkedList<>();
-        ArrayList
+        // ArrayList
         Data<String> element1 = new Data<>("Hello");
 
         list.add(element1);
